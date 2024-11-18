@@ -1,0 +1,22 @@
+{
+  "name": "lr5-stringgen",
+  "version": "1.0.0",
+  "description": "Simple string generation function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "devouver",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^2.1.0-beta.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1"
+  }
+}
